@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbnb Clone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"/>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'/>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-
+    <!-- Navbar -->
     <div>
         <div class="grid grid-cols-3 h-20 border-b-[1px] items-center fixed">
             <div class="pl-[60px]">
@@ -37,6 +36,18 @@
         </div>
         
     </div>
+    
+    <!-- Price bar -->
+    <section class="flex justify-center w-screen top-24 fixed">
+        <div class="flex items-center justify-between rounded-xl p-4 border w-[600px] h-[66px]">
+            <div class="w-[460px] flex justify-start">
+                <p class="border-r-2 border-gray-100 pr-4 text-base font-medium">Display total price</p>
+                <p class="border-gray-100 text-base text-gray-400 pl-4">Includes all fees, before taxes</p>
+            </div>
+            <i class="fa-regular fa-toggle-off"></i>
+        </div>
+    </section>
+
     
     
 </body>
