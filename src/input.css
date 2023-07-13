@@ -9,3 +9,20 @@
         font-family: 'Montserrat', sans-serif;
     }
 }
+
+@layer components {
+    .category{
+        @apply flex flex-col items-center text-gray-400 hover:text-black gap-2;
+    }
+    .category-text{
+        @apply text-xs font-normal;
+    }
+    .hotel-img{
+        @apply h-6 w-6 text-gray-400;
+    }
+    .gray-text {
+        @apply text-sm text-gray-400
+    }
+
+}
+
